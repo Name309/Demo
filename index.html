@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./access/CSS/style.css">
+    <link rel="stylesheet" href="./access/CSS/grid.css">
+    <link rel="stylesheet" href="./access/CSS/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <title>Music</title>
+</head>
+
+<body>
+    <div class="app">
+        <div class="grid wide">
+            <header class="header">
+
+                <div class="header-menu">
+                    <div class="header-menu__logo">
+                        <img src="https://zmp3-static.zmdcdn.me/skins/zmp3-v6.1/images/backgrounds/logo-dark.svg" alt=""
+                            class="header-menu__logo-img">
+                    </div>
+                    <ul class="header-menu-list">
+                        <li class="header-menu-list__item">
+                            <i class="header-menu-list__item-icon fa-solid fa-headphones-simple"></i>
+                            <a href="" class="header-menu-list__item-link">
+                                Cá Nhân
+                            </a>
+                        </li>
+                        <li class="header-menu-list__item active">
+                            <i class="header-menu-list__item-icon fa-solid fa-compact-disc"></i>
+                            <a href="" class="header-menu-list__item-link">
+                                Khám Phá
+                            </a>
+                        </li>
+                        <li class="header-menu-list__item">
+                            <i class="header-menu-list__item-icon fa-solid fa-chart-line"></i>
+                            <a href="" class="header-menu-list__item-link">
+                                #zingchart
+                            </a>
+                        </li>
+                        <li class="header-menu-list__item">
+                            <i class="header-menu-list__item-icon fa-solid fa-radio"></i>
+                            <a href="" class="header-menu-list__item-link">
+                                Radio
+                                <span class="header-menu-list__item-live">LIVE</span>
+                            </a>
+                        </li>
+                        <li class="header-menu-list__item">
+                            <i class="header-menu-list__item-icon fa-solid fa-elevator"></i>
+                            <a href="" class="header-menu-list__item-link">
+                                Theo Dõi
+                            </a>
+                        </li>
+                    </ul>
+
+                    <ul class="header-menu-list">
+                        <li class="header-menu-list__item">
+                            <i class="header-menu-list__item-icon fa-solid fa-music"></i>
+                            <a href="" class="header-menu-list__item-link">
+                                Nhạc Mới
+                            </a>
+                        </li>
+                        <li class="header-menu-list__item">
+                            <i class="header-menu-list__item-icon fa-regular fa-cubes-stacked"></i>
+                            <a href="" class="header-menu-list__item-link">
+                                Thể Loại
+                            </a>
+                        </li>
+                        <li class="header-menu-list__item">
+                            <i class="header-menu-list__item-icon fa-regular fa-star"></i>
+                            <a href="" class="header-menu-list__item-link">
+                                Top 100
+                            </a>
+                        </li>
+                        <li class="header-menu-list__item">
+                            <i class="header-menu-list__item-icon fa-regular fa-m"></i>
+                            <a href="" class="header-menu-list__item-link">
+                                MV
+                            </a>
+                        </li>
+
+                    </ul>
+
+                    <button class="header-menu-news">
+                        <div class="header-menu_text">
+                            <i class="header-menu-news__icon fa-solid fa-plus"></i>
+                            <span class="header-menu-news__title">
+                                Tạo Playlist mới
+                            </span>
+                        </div>
+                    </button>
+                </div>
+
+                <div class="search">
+                    <div class="container-top">
+                        <div class="container-left">
+                            <div class="container-left__icon">
+                                <button class="container-left__left">
+                                    <i class="container-left__left-icon fa-solid fa-arrow-left"></i>
+                                </button>
+                                <button class="container-left__left">
+                                    <i class="container-left__left-icon fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+
+                            <form class="container-search">
+                                <div class="container-search-item">
+                                    <i class="container-search__icon fa-solid fa-magnifying-glass"></i>
+                                    <div class="container-search-box">
+                                        <input class="container-search__input" type="text"
+                                            placeholder="Nhập tên bài hát, nghệ sĩ hoặc MV...">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <div class="container-right">
+                            <div class="container-right__setting">
+                                <i class="fa-solid fa-shirt"></i>
+                            </div>
+                            <div class="container-right__vip">
+                                <i class="fa-brands fa-vimeo"></i>
+                            </div>
+                            <div class="container-right__setting">
+                                <i class="fa-solid fa-arrow-up-from-bracket"></i>
+                            </div>
+                            <div class="container-right__setting">
+                                <i class="fa-solid fa-gear"></i>
+                            </div>
+                            <div class="container-right__avatar">
+                                <img src="./access/image/avatar.PNG" alt="" class="container-right__img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="body">
+                    <div class="body-center">
+                        <div class="container">
+                            <div class="container-body">
+                                <div class="container-author">
+                                    <div class="container-mp4">
+                                        <div class="container-img__icon">
+                                            <i class="container-img__icon-play fa-solid fa-play"></i>
+                                            <i class="container-img__icon-pause fa-solid fa-pause"></i>
+                                        </div>
+                                        <div class="container-img__overlay"></div>
+                                        <div class="container-music">
+                                            <video class="container-music__mp4">
+                                                <source type="video/mp4">
+                                            </video>
+                                        </div>
+                                    </div>
+                                    <div class="container-box-text">
+                                        <h2 class="container-author__title">
+                                            EDM Gamming
+                                        </h2>
+                                        <p class="container-author__text">
+                                            Cập nhật: 24/05/2022
+                                        </p>
+                                        <p class="container-author__text">
+                                            <a href="" class="container-author__group-item">NCS</a>,
+                                            <a href="" class="container-author__group-item">Alan Walker</a>,
+                                            <a href="" class="container-author__group-item">Sia</a>,
+                                            <a href="" class="container-author__group-item">TheFatRat</a>
+                                        </p>
+                                        <p class="container-author__text">
+                                            1M Người Yêu Thích
+                                        </p>
+                                    </div>
+
+                                    <button class="container-author__random">
+                                        <i class="container-icon container-icon-play fa-solid fa-play"></i>
+                                        <i class="container-icon container-icon-pause fa-solid fa-pause"></i>
+                                        <span class="container-author-text text-play">
+                                            Tiếp Tục Phát
+                                        </span>
+                                        <span class="container-author-text text-pause">
+                                            Tạm Dừng
+                                        </span>
+                                    </button>
+
+
+                                    <div class="container-author__footer">
+                                        <div class="container-author-icon">
+                                            <i class="container-icon__like fa-solid fa-heart"></i>
+                                        </div>
+                                        <div class="container-author-icon">
+                                            <i class="container-icon-other fa-solid fa-ellipsis"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="container-songs">
+                                    <div class="container-header">
+                                        <div class="container-header__title">
+                                            <span class="container-header__title-text">
+                                                <i
+                                                    class="container-header__title-icon fa-solid fa-arrow-down-up-across-line"></i>
+                                                BÀI HÁT
+                                            </span>
+                                            <span class="container-header__title-text">
+                                                ALBUM
+                                            </span>
+                                            <span class="container-header__title-text">
+                                                THỜI GIAN
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="container-list">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="control">
+                            <div class="control-left">
+                                <div class="control-left__picture">
+                                    <img alt="" class="control-left__img">
+                                    <div class="control-left__wave">
+                                        <div class="control-left__wave-item"></div>
+                                        <div class="control-left__wave-item"></div>
+                                        <div class="control-left__wave-item"></div>
+                                        <div class="control-left__wave-item"></div>
+                                    </div>
+                                </div>
+                                <div class="control-left__title">
+                                    <div class="control-left__title-text">
+                                        walk thru fire
+                                    </div>
+                                    <div class="control-left__title-desc">
+                                        victone
+                                    </div>
+                                </div>
+
+                                <div class="control-left__icon">
+                                    <div class="control-left__icon-like active-control">
+                                        <i class="fa-solid fa-heart"></i>
+                                    </div>
+                                    <div class="control-left__icon-other">
+                                        <i class="fa-solid fa-ellipsis"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="control-center">
+                                <div class="control-center__body">
+                                    <div class="control-center__btn">
+                                        <div class="control-center__icon control-center__btn-random ">
+                                            <i class="fa-solid fa-shuffle"></i>
+                                        </div>
+                                        <div class="control-center__icon control-center__btn-pev">
+                                            <i class="fa-solid fa-backward-step"></i>
+                                        </div>
+                                        <div class="control-center__icon control-center__btn-play">
+                                            <i class="control-center__icon-play fa-solid fa-play"></i>
+                                            <i class="control-center__icon-pause fa-solid fa-pause"></i>
+                                        </div>
+                                        <div class="control-center__icon control-center__btn-next">
+                                            <i class="fa-solid fa-forward-step"></i>
+                                        </div>
+                                        <div class="control-center__icon control-center__btn-loop">
+                                            <i class="fa-solid fa-repeat"></i>
+                                        </div>
+                                    </div>
+                                    <div class="control-center__input">
+                                        <span class="control-center__input-start">00:00</span>
+                                        <input type="range" min="0" max="100" step="1" value=""
+                                            class="control-center__current">
+                                        <span class="control-center__input-end">00:00</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="control-right">
+                                <div class="control-right__audio">
+                                    <div class="control-right__audio-volume">
+                                        <i class="volume-up fa-solid fa-volume-high"></i>
+                                        <i class="icon-no-volume fa-solid fa-volume-xmark"></i>
+                                    </div>
+                                    <input type="range" min="0" step="1" max="10" value=""
+                                        class="control-right__input-current">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="bodySlide">
+                    <video autoPlay loop muted class="bodySlide__item" src="">
+                        <source type="video/mp4">
+                    </video>
+                </div>
+            </header>
+        </div>
+    </div>
+
+    <script src="./access/javascript/main.js"></script>
+</body>
+
+</html>
