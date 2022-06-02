@@ -495,7 +495,7 @@ html {
 
 .container-songs {
     width: 100%;
-    height: 500px;
+    height: 430px;
     flex: 3;
     z-index: 999;
 }
